@@ -1,8 +1,9 @@
 import pandas as pd
 
 # Leer el archivo XLSX
-archivo_xlsx = 'cuentas_credicel.xlsx'
+archivo_xlsx = 'cuentas_credicel_Original.xlsx'
 df = pd.read_excel(archivo_xlsx)
+
 
 def actualizar_valores(row):
     # Iterar a través de las rows del DataFrame
